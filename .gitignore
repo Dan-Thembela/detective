@@ -1,0 +1,16 @@
+# Secrets / configuration locale (copier config.sample.php → config.php)
+config.php
+.env
+
+# Contenu utilisateur téléversé (images, documents). Le dossier et son
+# .htaccess sont recréés automatiquement par l'application ; seul
+# .gitkeep reste suivi par git pour préserver le dossier dans le dépôt.
+uploads/*
+!uploads/.gitkeep
+
+# Système / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
